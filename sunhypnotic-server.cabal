@@ -19,3 +19,7 @@ executable sunhypnotic
   build-depends:       base >= 4.7 && < 5
                        , scotty
                        , aeson
+                       , mongoDB
+                       , text
+                       , transformers
+  ghc-options: -Wall
